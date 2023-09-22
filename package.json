@@ -1,0 +1,21 @@
+{
+  "name": "pv-bugtracker-vue",
+  "version": "1.0.0",
+  "description": "bug report for vue",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "npm install && bili --format cjs"
+  },
+  "author": "Rahul Patel",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "bootstrap-vue": "^2.23.1",
+    "lodash": "^4.17.21",
+    "vue-html2canvas": "^0.0.4",
+    "pv-bugtracker": "git+https://github.com/rahul-patel-pivvit/pv-bugtracker#v1.0.0"
+  },
+  "files": [
+    "src/*"
+  ]
+}
